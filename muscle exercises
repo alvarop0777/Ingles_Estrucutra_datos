@@ -1,0 +1,38 @@
+{
+  "Chest": [
+    "Barbell bench press",
+    "Incline dumbbell press",
+    "Dips",
+    "Dumbbell flyes"
+  ],
+  "Back": [
+    "Pull-ups",
+    "Barbell rows",
+    "Dumbbell rows",
+    "Lat pulldown"
+  ],
+  "Legs": [
+    "Squats",
+    "Leg press",
+    "Lunges",
+    "Leg extensions"
+  ],
+  "Shoulders": [
+    "Military press",
+    "Lateral raises",
+    "Front raises",
+    "Rear delt flyes"
+  ],
+  "Biceps": [
+    "Barbell curl",
+    "Dumbbell curl",
+    "Hammer curl",
+    "Concentration curl"
+  ],
+  "Triceps": [
+    "Skull crushers",
+    "Bench dips",
+    "Rope pushdowns",
+    "Triceps kickbacks"
+  ]
+}
