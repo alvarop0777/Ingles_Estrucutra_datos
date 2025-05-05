@@ -1,38 +1,178 @@
 {
-  "Chest": [
-    "Barbell bench press",
-    "Incline dumbbell press",
-    "Dips",
-    "Dumbbell flyes"
-  ],
-  "Back": [
-    "Pull-ups",
-    "Barbell rows",
-    "Dumbbell rows",
-    "Lat pulldown"
-  ],
-  "Legs": [
-    "Squats",
-    "Leg press",
-    "Lunges",
-    "Leg extensions"
-  ],
-  "Shoulders": [
-    "Military press",
-    "Lateral raises",
-    "Front raises",
-    "Rear delt flyes"
-  ],
-  "Biceps": [
-    "Barbell curl",
-    "Dumbbell curl",
-    "Hammer curl",
-    "Concentration curl"
-  ],
-  "Triceps": [
-    "Skull crushers",
-    "Bench dips",
-    "Rope pushdowns",
-    "Triceps kickbacks"
+  "muscle_groups": [
+    {
+      "name": "Chest",
+      "exercises": [
+        {
+          "name": "Barbell bench press",
+          "type": "Compound",
+          "equipment": "Barbell",
+          "reps_for_hypertrophy": "6-12"
+        },
+        {
+          "name": "Incline dumbbell press",
+          "type": "Compound",
+          "equipment": "Dumbbells",
+          "reps_for_hypertrophy": "8-12"
+        },
+        {
+          "name": "Dips",
+          "type": "Compound",
+          "equipment": "Bodyweight or Dip bars",
+          "reps_for_hypertrophy": "8-15"
+        },
+        {
+          "name": "Dumbbell flyes",
+          "type": "Isolation",
+          "equipment": "Dumbbells",
+          "reps_for_hypertrophy": "10-15"
+        }
+      ]
+    },
+    {
+      "name": "Back",
+      "exercises": [
+        {
+          "name": "Pull-ups",
+          "type": "Compound",
+          "equipment": "Bodyweight or Pull-up bar",
+          "reps_for_hypertrophy": "8-12"
+        },
+        {
+          "name": "Barbell rows",
+          "type": "Compound",
+          "equipment": "Barbell",
+          "reps_for_hypertrophy": "6-12"
+        },
+        {
+          "name": "Dumbbell rows",
+          "type": "Compound",
+          "equipment": "Dumbbells",
+          "reps_for_hypertrophy": "8-12"
+        },
+        {
+          "name": "Lat pulldown",
+          "type": "Compound",
+          "equipment": "Cable machine",
+          "reps_for_hypertrophy": "10-12"
+        }
+      ]
+    },
+    {
+      "name": "Legs",
+      "exercises": [
+        {
+          "name": "Squats",
+          "type": "Compound",
+          "equipment": "Barbell",
+          "reps_for_hypertrophy": "6-12"
+        },
+        {
+          "name": "Leg press",
+          "type": "Compound",
+          "equipment": "Leg press machine",
+          "reps_for_hypertrophy": "10-15"
+        },
+        {
+          "name": "Lunges",
+          "type": "Compound",
+          "equipment": "Bodyweight or Dumbbells",
+          "reps_for_hypertrophy": "10-15"
+        },
+        {
+          "name": "Leg extensions",
+          "type": "Isolation",
+          "equipment": "Leg extension machine",
+          "reps_for_hypertrophy": "12-15"
+        }
+      ]
+    },
+    {
+      "name": "Shoulders",
+      "exercises": [
+        {
+          "name": "Military press",
+          "type": "Compound",
+          "equipment": "Barbell or Dumbbells",
+          "reps_for_hypertrophy": "6-12"
+        },
+        {
+          "name": "Lateral raises",
+          "type": "Isolation",
+          "equipment": "Dumbbells",
+          "reps_for_hypertrophy": "12-15"
+        },
+        {
+          "name": "Front raises",
+          "type": "Isolation",
+          "equipment": "Dumbbells or Plate",
+          "reps_for_hypertrophy": "10-15"
+        },
+        {
+          "name": "Rear delt flyes",
+          "type": "Isolation",
+          "equipment": "Dumbbells",
+          "reps_for_hypertrophy": "12-15"
+        }
+      ]
+    },
+    {
+      "name": "Biceps",
+      "exercises": [
+        {
+          "name": "Barbell curl",
+          "type": "Isolation",
+          "equipment": "Barbell",
+          "reps_for_hypertrophy": "8-12"
+        },
+        {
+          "name": "Dumbbell curl",
+          "type": "Isolation",
+          "equipment": "Dumbbells",
+          "reps_for_hypertrophy": "10-15"
+        },
+        {
+          "name": "Hammer curl",
+          "type": "Isolation",
+          "equipment": "Dumbbells",
+          "reps_for_hypertrophy": "10-15"
+        },
+        {
+          "name": "Concentration curl",
+          "type": "Isolation",
+          "equipment": "Dumbbells",
+          "reps_for_hypertrophy": "10-15"
+        }
+      ]
+    },
+    {
+      "name": "Triceps",
+      "exercises": [
+        {
+          "name": "Skull crushers",
+          "type": "Isolation",
+          "equipment": "Barbell or EZ bar",
+          "reps_for_hypertrophy": "8-12"
+        },
+        {
+          "name": "Bench dips",
+          "type": "Compound",
+          "equipment": "Bodyweight or Bench",
+          "reps_for_hypertrophy": "10-15"
+        },
+        {
+          "name": "Rope pushdowns",
+          "type": "Isolation",
+          "equipment": "Cable machine",
+          "reps_for_hypertrophy": "10-15"
+        },
+        {
+          "name": "Triceps kickbacks",
+          "type": "Isolation",
+          "equipment": "Dumbbells",
+          "reps_for_hypertrophy": "12-15"
+        }
+      ]
+    }
   ]
 }
